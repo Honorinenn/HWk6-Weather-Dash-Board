@@ -1,4 +1,4 @@
-//Declare a variable to store the searched city
+//Declaration of a variable to store the searched city
 var city="";
 // variable declaration
 var searchCity = $("#search-city");
@@ -10,7 +10,7 @@ var currentHumidty= $("#humidity");
 var currentWSpeed=$("#wind-speed");
 var currentUvindex= $("#uv-index");
 var sCity=[];
-// searches the city to see if it exists in the entries from the storage
+// It searches the city to see if it exists in the entries from the storage
 function find(c){
     for (var i=0; i<sCity.length; i++){
         if(c.toUpperCase()===sCity[i]){
@@ -19,7 +19,7 @@ function find(c){
     }
     return 1;
 }
-//Set up the API key
+//Setting up the API key
 var APIKey="c9c2667780a124eeb1237b1dafa06e95";
 // Display the curent and future weather to the user after grabing the city form the input text box.
 function displayWeather(event){
@@ -121,14 +121,14 @@ function forecast(cityid){
     });
 }
 
-//Daynamically add the passed city on the search history
+//The passed city are added dynamically to the search history
 function addToList(c){
     var listEl= $("<li>"+c.toUpperCase()+"</li>");
     $(listEl).attr("class","list-group-item");
     $(listEl).attr("data-value",c.toUpperCase());
     $(".list-group").append(listEl);
 }
-// display the past search again when the list group item is clicked in search history
+// To display the past search again when the list group item is clicked in search history
 function invokePastSearch(event){
     var liEl=event.target;
     if (event.target.matches("li")){
@@ -138,7 +138,7 @@ function invokePastSearch(event){
 
 }
 
-// render function
+// Here we render function
 function loadlastCity(){
     $("ul").empty();
     var sCity = JSON.parse(localStorage.getItem("cityname"));
@@ -152,7 +152,7 @@ function loadlastCity(){
     }
 
 }
-//Clear the search history from the page
+//To Clear the search history from the page
 function clearHistory(event){
     event.preventDefault();
     sCity=[];
@@ -160,7 +160,7 @@ function clearHistory(event){
     document.location.reload();
 
 }
-//Click Handlers
+//Click Event Handlers
 $("#search-button").on("click",displayWeather);
 $(document).on("click",invokePastSearch);
 $(window).on("load",loadlastCity);

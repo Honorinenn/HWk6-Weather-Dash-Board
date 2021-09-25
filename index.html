@@ -5,19 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Weather Dashboard</title>
-    <!--Bootstrap CSS CDN-->
+    <!--The Bootstrap CSS CDN is as follows-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
-    <!-- Font Awesome CSS Icons (For cool glyphicons) -->
+    <!-- The links for the Font Awesome CSS Icons (For cool glyphicons) -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Jumbotron for Title-->
-    <div class="jumbotron container-fluid mt-2 text-center p-2" style="background-color:#404040 ;color: white;">
+    <!--Jumbotron for the Title-->
+    <div class="jumbotron container-fluid mt-2 text-center p-2" style="background-color:blue; color: white;">
         <h1> <strong>Weather Dashboard</strong></h1>
     </div>
     <div class="container">
-        <!--Row for searching a city-->
+        <!--The row for searching a city is as follows-->
         <div class="row">
             <div class="col-sm-4 bg-light">
                 <!--Here we create an HTML form for handling the inputs-->
@@ -29,7 +29,7 @@
                         <button class=" btn bg-primary text-light" id="search-button"><i class="fa fa-search"></i></button>
                     </div>
                 </div>
-                <!--section for search city history-->
+                <!--This is the section for search city history -->
                 <button class=" btn btn-primary" type="button" id="clear-history">Clear history</button>
                 <ul class="list-group">
 
@@ -45,7 +45,7 @@
                         <p>UV index:<span class="current bg-danger rounded py-2 px-2 text-white" id="uv-index"></span></p> 
                     </div>
                 </div>
-                <!--Row for future data to be dumped here-->
+                <!--This is the row for future data to be dumped -->
                 <div class="col-sm-12" id ="future-weather">
                     <h3>5-Day Forecast:</h3>
                     <div class="row text-light">
@@ -79,6 +79,7 @@
                             <p>Temp:<span id="fTemp4"></span></p>
                             <p>Humidity:<span id="fHumidity4"></span></p>
                         </div>
+                    
                     </div>
                 </div>
                 
@@ -86,22 +87,22 @@
         </div>
     </div>
 		<footer class="mt-5 p-3 text-center bg-light">
-			Weather Dashboard &copy 2021
+			Weather Forecast &copy 2021
 			<link
 				rel="stylesheet"
 				type="text/css"
 				href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
 			/>
-			Made <i class="icon ion-heart"></i> By
+			Done <i class="icon ion-heart"></i> By
 			<a href="https://github.com/sahiljanbandhu" target="blank">
 				Honorine Ndom Ndzah</a
 			>
 		</footer>
 
-    <!--jQuery JS-->
+    <!--The link to jQuery and cdnJS-->
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
-    <!--Code to Jvascript File-->
+    <!--The Code to JS File-->
     <script src="script.js"></script>
 </body>
 </html>
