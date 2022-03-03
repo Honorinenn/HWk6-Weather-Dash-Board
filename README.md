@@ -1,7 +1,8 @@
 # Weather-Dash-Board
 
 
-This application is a Weather Dashboard that displays the current weather forecast for a city of preference and the upcoming five days. Enter your city of preference and select search to view the current weather, temperature, humidity, wind speed, and UV Index for that city at the current time. Upon the search, the dashobard will also display the weather, temperature and hummidity forecast for the next five days.
+This application is a Weather Dashboard that displays the current weather forecast for a city of preference and the upcoming five days. Enter your city of preference and select search to view the current weather, temperature, humidity, wind speed, and UV Index for that city at the current time. Upon the search, the dashobard will also display the weather, temperature and hummidity forecast for the next five days. The link to the deploy app is as follows:
+ https://honorinenn.github.io/Weather-Dash-Board/
 
 
      
