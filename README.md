@@ -1,7 +1,7 @@
 # Weather-Dash-Board
 
 
-A web-based dashboard built to show the current weather in a city of choice and the upcoming five (5) day forecast for that city Built for Vanderbilt Coding Bootcamp Challenge 6
+This application is a Weather Dashboard that displays the current weather forecast for a city of preference and the upcoming five days. Enter your city of preference and select search to view the current weather, temperature, humidity, wind speed, and UV Index for that city at the current time. Upon the search, the dashobard will also display the weather, temperature and hummidity forecast for the next five days.
 
 
      
@@ -14,7 +14,7 @@ A web-based dashboard built to show the current weather in a city of choice and 
 6. [Questions](#questions)
 
 ## Installation
-Enter in your city of choice and select search to view the current weather, temperature, humidity, wind speed, and UV Index for that city at the current time. Upon the search, the dashobard will also display the weather, temperature and hummidity forecast for the next five(5) days.
+
 
 ## Usage
 
