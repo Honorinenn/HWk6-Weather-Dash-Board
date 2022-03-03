@@ -18,7 +18,7 @@ This application is a Weather Dashboard that displays the current weather foreca
 
 
 ## Usage
-
+<img width="955" alt="weatherdashboard1" src="https://user-images.githubusercontent.com/87605893/156650557-cb99a0ac-827b-4229-a362-47ae423e19bb.png">
 
 ## License
 No License
